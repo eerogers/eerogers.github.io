@@ -48,9 +48,23 @@ a {
     background-color: #ffffff;
     position: relative;
     left: 135px;
-    width: 40%;
+    width: 33%;
     padding: 10px;
     float: left;
+}
+
+.clearfix {
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px; 
+    background-color: #ffffff;
+    position: relative;
+    left: 135px;
+    padding: 10px;
+    float: left;
+    width: 35%;
+    height: 680px;
+    overflow: auto;
 }
 
 
@@ -71,7 +85,7 @@ a {
     background-color: #ffffff;
     position: relative;
     left: 170px;
-    width: 12%;
+    width: 13%;
     padding: 10px;
     float: left;
 }
@@ -130,4 +144,96 @@ footer {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 10px;
     text-align: center;
+}
+
+.images1 {
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.images2 {
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 31px;
+}
+
+.images3 {
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+.images4 {
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 31px;
+}
+
+.images5 {
+    float: left;
+    position: relative;
+    top: 80px;
+    left: 10px;
+}
+
+.images6 {
+    float: left;
+    position: relative;
+    top: 80px;
+    left: 31px;
+}
+
+
+.words {
+    position: absolute;
+    top: 110px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    text-align: center;
+}
+
+input {
+    position: absolute;
+    left: 20px;
+    width: 89%;
+    padding: 6px;
+
+}
+#mess {
+    height: 150px;
+    position: absolute;
+    left: 20px;
+    width: 91%;
+    border-color: #777777;
+}
+
+.formA {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
+        font-size: 14px;
+        line-height: 50%;
+        padding: 10px 10px 0px 10px;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 415px;
+    padding: 10px 0px 10px 0px;
+    width: 20%;
 }
