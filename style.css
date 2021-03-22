@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/pink-sand.jpg);
+    background-image: url(images/waves.jpg);
 }
 
 a {
@@ -269,6 +269,25 @@ input {
     width: 230px;
     text-align: center;
     padding: 0px 3px 0px 3px;
+}
+
+#my-navheader {
+    position: fixed;
+    top: 0px;
+    color: lightskyblue;
+    width: 230px;
+    text-align: center;
+    padding: 0px 3px 0px 3px;
+    background-color: white;
+    width: 50%;
+}
+
+#my-linkbar {
+    position: relative;
+    top: 0px;
+    float: right;
+    width: 50%;
+    background-color: blue;
 }
 
 .navbar-fixed-bottom {
